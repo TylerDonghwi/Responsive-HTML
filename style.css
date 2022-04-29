@@ -105,6 +105,9 @@ a:hover {
     margin-right: auto;
 }
 
+
+/* newsletter */
+
 #newsletter {
     padding: 1rem;
     color: white;
@@ -127,6 +130,29 @@ a:hover {
     width: 10rem;
 }
 
-.icons {
-    width: 3rem;
+
+/* image container */
+
+.img-container img {
+    height: 8rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.box {
+    float: left;
+    width: 20%;
+    margin-top: 1.5rem;
+    padding: .75rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+footer {
+    padding: 1.25rem;
+    margin-top: 1rem;
+    background-color: orangered;
+    color: white;
+    text-align: right;
+    max-height: 3rem;
 }
