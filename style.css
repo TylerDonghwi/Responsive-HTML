@@ -26,6 +26,14 @@ body {
     border-radius: 0.1rem;
 }
 
+.dark {
+    padding: 1rem;
+    background-color: #35424a;
+    color: white;
+    margin-top: .66rem;
+    margin-bottom: .66rem
+}
+
 
 /* header */
 
@@ -155,4 +163,18 @@ footer {
     color: white;
     text-align: right;
     max-height: 3rem;
+}
+
+
+/* sidebar */
+
+aside#sidebar {
+    float: right;
+    width: 35%;
+    margin-top: .75rem;
+}
+
+#main-col {
+    float: left;
+    width: 60%;
 }
