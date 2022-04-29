@@ -33,6 +33,52 @@ header a {
     text-transform: uppercase;
 }
 
-img {
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 1.25rem 0 1.25rem;
+}
+
+header #title {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 1rem;
+}
+
+header .fake,
+.current {
+    color: orangered;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/* showcase */
+
+#showcase {
+    min-height: 30rem;
+    background: url('img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white
+}
+
+.icons {
     width: 3rem;
 }
