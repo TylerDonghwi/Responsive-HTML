@@ -141,6 +141,11 @@ a:hover {
 
 /* image container */
 
+.img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .img-container img {
     height: 8rem;
     display: block;
@@ -226,5 +231,8 @@ ul#services li {
         float: none;
         text-align: center;
         width: 100%;
+    }
+    .img-container {
+        display: inline;
     }
 }
