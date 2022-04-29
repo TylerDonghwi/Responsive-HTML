@@ -16,6 +16,16 @@ body {
     overflow: hidden;
 }
 
+.button_1 {
+    height: 2rem;
+    color: white;
+    background-color: orangered;
+    border: none;
+    padding: 0 .25rem 0 .25rem;
+    height: 2.25rem;
+    border-radius: 0.1rem;
+}
+
 
 /* header */
 
@@ -109,6 +119,12 @@ a:hover {
 #newsletter form {
     float: right;
     margin-top: 1.5rem;
+}
+
+#newsletter input[type="email"] {
+    padding: .25rem;
+    height: 1.5rem;
+    width: 10rem;
 }
 
 .icons {
