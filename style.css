@@ -222,4 +222,9 @@ ul#services li {
     #newsletter {
         max-height: 30rem;
     }
+    .img-container .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 }
